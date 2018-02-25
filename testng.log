@@ -7,3 +7,17 @@
 [INFO ] 2018-02-25 13:44:14 [main] positiveEndToEnd- click on submit
 [INFO ] 2018-02-25 13:44:14 [main] positiveEndToEnd- Success message
 [INFO ] 2018-02-25 13:44:14 [main] positiveEndToEnd- closing browser
+[INFO ] 2018-02-25 14:51:46 [main] negativeEndToEnd- Opening firefox
+[INFO ] 2018-02-25 14:51:54 [main] negativeEndToEnd- Going to main page.
+[INFO ] 2018-02-25 14:51:55 [main] negativeEndToEnd- going to contact page
+[INFO ] 2018-02-25 14:51:56 [main] negativeEndToEnd- click on submit
+[INFO ] 2018-02-25 14:51:56 [main] negativeEndToEnd- Alert message
+[INFO ] 2018-02-25 14:51:56 [main] positiveEndToEnd- Opening firefox
+[INFO ] 2018-02-25 14:52:03 [main] positiveEndToEnd- Going to main page.
+[INFO ] 2018-02-25 14:52:04 [main] positiveEndToEnd- going to contact page
+[INFO ] 2018-02-25 14:52:05 [main] positiveEndToEnd- Providing name
+[INFO ] 2018-02-25 14:52:05 [main] positiveEndToEnd- Providing email
+[INFO ] 2018-02-25 14:52:05 [main] positiveEndToEnd- Providing message
+[INFO ] 2018-02-25 14:52:05 [main] positiveEndToEnd- click on submit
+[INFO ] 2018-02-25 14:52:06 [main] positiveEndToEnd- Success message
+[INFO ] 2018-02-25 14:52:06 [main] positiveEndToEnd- closing browser
