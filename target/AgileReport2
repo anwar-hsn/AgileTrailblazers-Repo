@@ -1,0 +1,256 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Going to base URL",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11936543705,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at HomePage",
+            "match": {
+              "location": "StepDefination.i_go_to_the_URL()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "Submitting message without anythin",
+        "description": "",
+        "id": "chceking-contact-us;submitting-message-without-anythin",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 650044377,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on contact us",
+            "match": {
+              "location": "StepDefination.click_on_contact_us()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 521197390,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click sumbit button",
+            "match": {
+              "location": "StepDefination.i_click_sumbit_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [Validation errors occurred. Please confirm the fields and submit it again.] but found [Please fill in the required field.]\r\n\tat org.testng.Assert.fail(Assert.java:93)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:512)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:134)\r\n\tat org.testng.Assert.assertEquals(Assert.java:115)\r\n\tat org.testng.Assert.assertEquals(Assert.java:189)\r\n\tat org.testng.Assert.assertEquals(Assert.java:199)\r\n\tat com.agile.pages.ContactPage.verifyErrorAlert(ContactPage.java:58)\r\n\tat com.agile.cucumber.StepDefination.i_get_the_Error_alert_message(StepDefination.java:89)\r\n\tat ✽.I get the Error alert message(Trailblazer.feature:13)\r\n",
+              "duration": 101094285,
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "I get the Error alert message",
+            "match": {
+              "location": "StepDefination.i_get_the_Error_alert_message()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@NegativeTest"
+          },
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@RegressionTest"
+          },
+          {
+            "name": "@Firefox"
+          },
+          {
+            "name": "@FormSubmission"
+          },
+          {
+            "name": "@Empty"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Going to base URL",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8468683498,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at HomePage",
+            "match": {
+              "location": "StepDefination.i_go_to_the_URL()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 110,
+        "name": "Submitting message with all the information.",
+        "description": "",
+        "id": "chceking-contact-us;submitting-message-with-all-the-information.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1350173828,
+              "status": "passed"
+            },
+            "line": 111,
+            "name": "I click on contact us",
+            "match": {
+              "location": "StepDefination.click_on_contact_us()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 99097861,
+              "status": "passed"
+            },
+            "line": 112,
+            "name": "I provide Name",
+            "match": {
+              "location": "StepDefination.i_provide_Name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53460787,
+              "status": "passed"
+            },
+            "line": 113,
+            "name": "I provide valid Email",
+            "match": {
+              "location": "StepDefination.i_provide_valid_Email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68576760,
+              "status": "passed"
+            },
+            "line": 114,
+            "name": "I provide valid Mobile phone number",
+            "match": {
+              "location": "StepDefination.i_provide_valid_Mobile_phone_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57182330,
+              "status": "passed"
+            },
+            "line": 115,
+            "name": "I provide valid Office phone number",
+            "match": {
+              "location": "StepDefination.i_provide_valid_Office_phone_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1636815057,
+              "status": "passed"
+            },
+            "line": 116,
+            "name": "I select subject from dropdown menu",
+            "match": {
+              "location": "StepDefination.i_select_subject_from_dropdown_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46491153,
+              "status": "passed"
+            },
+            "line": 117,
+            "name": "I write the message",
+            "match": {
+              "location": "StepDefination.i_write_the_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 417581917,
+              "status": "passed"
+            },
+            "line": 118,
+            "name": "I click sumbit button",
+            "match": {
+              "location": "StepDefination.i_click_sumbit_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1207869498,
+              "status": "passed"
+            },
+            "line": 119,
+            "name": "I get the confirmation message",
+            "match": {
+              "location": "StepDefination.i_get_the_confirmation_message()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PositiveTest"
+          },
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@RegressionTest"
+          },
+          {
+            "name": "@Firefox"
+          },
+          {
+            "name": "@FormSubmission"
+          }
+        ]
+      }
+    ],
+    "name": "Chceking contact us",
+    "description": "",
+    "id": "chceking-contact-us",
+    "keyword": "Feature",
+    "uri": "Trailblazer.feature"
+  }
+]
