@@ -202,4 +202,114 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.background({
+  "name": "Going to base URL",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.step({
+  "name": "I am at HomePage",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "StepDefination.i_go_to_the_URL()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Submitting message with all the required information.",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@PositiveTest"
+    },
+    {
+      "name": "@SmokeTest"
+    },
+    {
+      "name": "@RegressionTest"
+    },
+    {
+      "name": "@Firefox"
+    },
+    {
+      "name": "@FormSubmission"
+    },
+    {
+      "name": "@Required"
+    }
+  ]
+});
+formatter.step({
+  "name": "I click on contact us",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "StepDefination.click_on_contact_us()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I provide Name",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefination.i_provide_Name()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I provide valid Email",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefination.i_provide_valid_Email()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I select subject from dropdown menu",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefination.i_select_subject_from_dropdown_menu()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I write the message",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefination.i_write_the_message()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I click sumbit button",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDefination.i_click_sumbit_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I get the confirmation message",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefination.i_get_the_confirmation_message()"
+});
+formatter.result({
+  "status": "passed"
+});
 });

@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 11936543705,
+              "duration": 11594180205,
               "status": "passed"
             },
             "line": 5,
@@ -33,7 +33,7 @@
         "steps": [
           {
             "result": {
-              "duration": 650044377,
+              "duration": 718000435,
               "status": "passed"
             },
             "line": 11,
@@ -45,7 +45,7 @@
           },
           {
             "result": {
-              "duration": 521197390,
+              "duration": 526825217,
               "status": "passed"
             },
             "line": 12,
@@ -58,7 +58,7 @@
           {
             "result": {
               "error_message": "java.lang.AssertionError: expected [Validation errors occurred. Please confirm the fields and submit it again.] but found [Please fill in the required field.]\r\n\tat org.testng.Assert.fail(Assert.java:93)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:512)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:134)\r\n\tat org.testng.Assert.assertEquals(Assert.java:115)\r\n\tat org.testng.Assert.assertEquals(Assert.java:189)\r\n\tat org.testng.Assert.assertEquals(Assert.java:199)\r\n\tat com.agile.pages.ContactPage.verifyErrorAlert(ContactPage.java:58)\r\n\tat com.agile.cucumber.StepDefination.i_get_the_Error_alert_message(StepDefination.java:89)\r\n\tat ✽.I get the Error alert message(Trailblazer.feature:13)\r\n",
-              "duration": 101094285,
+              "duration": 82815894,
               "status": "failed"
             },
             "line": 13,
@@ -99,7 +99,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8468683498,
+              "duration": 11129569430,
               "status": "passed"
             },
             "line": 5,
@@ -121,7 +121,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1350173828,
+              "duration": 852817060,
               "status": "passed"
             },
             "line": 111,
@@ -133,7 +133,7 @@
           },
           {
             "result": {
-              "duration": 99097861,
+              "duration": 108798411,
               "status": "passed"
             },
             "line": 112,
@@ -145,7 +145,7 @@
           },
           {
             "result": {
-              "duration": 53460787,
+              "duration": 72018963,
               "status": "passed"
             },
             "line": 113,
@@ -157,7 +157,7 @@
           },
           {
             "result": {
-              "duration": 68576760,
+              "duration": 70764170,
               "status": "passed"
             },
             "line": 114,
@@ -169,7 +169,7 @@
           },
           {
             "result": {
-              "duration": 57182330,
+              "duration": 69642353,
               "status": "passed"
             },
             "line": 115,
@@ -181,7 +181,7 @@
           },
           {
             "result": {
-              "duration": 1636815057,
+              "duration": 1107338353,
               "status": "passed"
             },
             "line": 116,
@@ -193,7 +193,7 @@
           },
           {
             "result": {
-              "duration": 46491153,
+              "duration": 49919523,
               "status": "passed"
             },
             "line": 117,
@@ -205,7 +205,7 @@
           },
           {
             "result": {
-              "duration": 417581917,
+              "duration": 413087956,
               "status": "passed"
             },
             "line": 118,
@@ -217,7 +217,7 @@
           },
           {
             "result": {
-              "duration": 1207869498,
+              "duration": 1113902813,
               "status": "passed"
             },
             "line": 119,
@@ -243,6 +243,141 @@
           },
           {
             "name": "@FormSubmission"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Going to base URL",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7997632760,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at HomePage",
+            "match": {
+              "location": "StepDefination.i_go_to_the_URL()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 122,
+        "name": "Submitting message with all the required information.",
+        "description": "",
+        "id": "chceking-contact-us;submitting-message-with-all-the-required-information.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 982726961,
+              "status": "passed"
+            },
+            "line": 123,
+            "name": "I click on contact us",
+            "match": {
+              "location": "StepDefination.click_on_contact_us()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 121973737,
+              "status": "passed"
+            },
+            "line": 124,
+            "name": "I provide Name",
+            "match": {
+              "location": "StepDefination.i_provide_Name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 571182509,
+              "status": "passed"
+            },
+            "line": 125,
+            "name": "I provide valid Email",
+            "match": {
+              "location": "StepDefination.i_provide_valid_Email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 406656025,
+              "status": "passed"
+            },
+            "line": 126,
+            "name": "I select subject from dropdown menu",
+            "match": {
+              "location": "StepDefination.i_select_subject_from_dropdown_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49502300,
+              "status": "passed"
+            },
+            "line": 127,
+            "name": "I write the message",
+            "match": {
+              "location": "StepDefination.i_write_the_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 392263835,
+              "status": "passed"
+            },
+            "line": 128,
+            "name": "I click sumbit button",
+            "match": {
+              "location": "StepDefination.i_click_sumbit_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 824755121,
+              "status": "passed"
+            },
+            "line": 129,
+            "name": "I get the confirmation message",
+            "match": {
+              "location": "StepDefination.i_get_the_confirmation_message()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PositiveTest"
+          },
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@RegressionTest"
+          },
+          {
+            "name": "@Firefox"
+          },
+          {
+            "name": "@FormSubmission"
+          },
+          {
+            "name": "@Required"
           }
         ]
       }

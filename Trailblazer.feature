@@ -51,7 +51,7 @@ Background: Going to base URL
   
       
   @NegativeTest @SmokeTest @RegressionTest @Firefox @FormSubmission
-  Scenario: Submitting message withoud name
+  Scenario: Submitting message without name
     
     When I click on contact us
     And I provide valid Email
@@ -118,6 +118,15 @@ Background: Going to base URL
     Then I click sumbit button
     And I get the confirmation message
  
+ @PositiveTest @SmokeTest @RegressionTest @Firefox @FormSubmission @Required 
+  Scenario: Submitting message with all the required information.
+    When I click on contact us
+    And I provide Name
+    And I provide valid Email
+    And I select subject from dropdown menu
+    And I write the message 
+    Then I click sumbit button
+    And I get the confirmation message
   
   @search @SmokeTest @RegressionTest @Firefox
   Scenario: Search option

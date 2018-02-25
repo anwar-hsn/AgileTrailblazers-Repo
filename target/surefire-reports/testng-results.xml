@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="23958" started-at="2018-02-25T19:38:21Z" finished-at="2018-02-25T19:38:45Z">
+  <suite name="Suite" duration-ms="26013" started-at="2018-02-24T21:42:37Z" finished-at="2018-02-24T21:43:03Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="23958" started-at="2018-02-25T19:38:21Z" finished-at="2018-02-25T19:38:45Z">
+    <test name="Test" duration-ms="26013" started-at="2018-02-24T21:42:37Z" finished-at="2018-02-24T21:43:03Z">
       <class name="com.agile.testng.SmokeTest">
-        <test-method status="FAIL" signature="negativeTest()[pri:0, instance:com.agile.testng.SmokeTest@79b4d0f]" name="negativeTest" duration-ms="13007" started-at="2018-02-25T14:38:21Z" finished-at="2018-02-25T14:38:34Z">
+        <test-method status="FAIL" signature="negativeTest()[pri:0, instance:com.agile.testng.SmokeTest@7a5d012c]" name="negativeTest" duration-ms="13909" started-at="2018-02-24T16:42:37Z" finished-at="2018-02-24T16:42:50Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Validation errors occurred. Please confirm the fields and submit it again.] but found [Please fill in the required field.]]]>
@@ -58,7 +58,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeTest -->
-        <test-method status="PASS" signature="positiveTest()[pri:0, instance:com.agile.testng.SmokeTest@79b4d0f]" name="positiveTest" duration-ms="10902" started-at="2018-02-25T14:38:34Z" finished-at="2018-02-25T14:38:45Z">
+        <test-method status="PASS" signature="positiveTest()[pri:0, instance:com.agile.testng.SmokeTest@7a5d012c]" name="positiveTest" duration-ms="12058" started-at="2018-02-24T16:42:50Z" finished-at="2018-02-24T16:43:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- positiveTest -->
