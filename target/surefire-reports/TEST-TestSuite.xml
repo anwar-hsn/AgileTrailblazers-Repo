@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="23.271" tests="2" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="24.128" tests="2" errors="0" skipped="0" failures="1">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_141\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\ANWARH~1\AppData\Local\Temp\surefire8463136629713077049\surefirebooter3597950087279121624.jar C:\Users\Anwar Hossain\AppData\Local\Temp\surefire8463136629713077049 2018-02-25T14-51-42_109-jvmRun1 surefire7199641875616854606tmp surefire_07391247162711103557tmp"/>
+    <property name="sun.java.command" value="C:\Users\ANWARH~1\AppData\Local\Temp\surefire8325380775818648084\surefirebooter8313408634838020543.jar C:\Users\Anwar Hossain\AppData\Local\Temp\surefire8325380775818648084 2018-02-25T14-54-23_560-jvmRun1 surefire8020215106697628520tmp surefire_04960140486669315187tmp"/>
     <property name="surefire.test.class.path" value="G:\Git\AgileTrailblazers-Repo\target\test-classes;G:\Git\AgileTrailblazers-Repo\target\classes;C:\Users\Anwar Hossain\.m2\repository\org\seleniumhq\selenium\selenium-java\3.6.0\selenium-java-3.6.0.jar;C:\Users\Anwar Hossain\.m2\repository\org\seleniumhq\selenium\selenium-api\3.6.0\selenium-api-3.6.0.jar;C:\Users\Anwar Hossain\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.6.0\selenium-chrome-driver-3.6.0.jar;C:\Users\Anwar Hossain\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.6.0\selenium-edge-driver-3.6.0.jar;C:\Users\Anwar Hossain\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.6.0\selenium-firefox-driver-3.6.0.jar;C:\Users\Anwar Hossain\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.6.0\selenium-ie-driver-3.6.0.jar;C:\Users\Anwar Hossain\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.6.0\selenium-opera-driver-3.6.0.jar;C:\Users\Anwar Hossain\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.6.0\selenium-remote-driver-3.6.0.jar;C:\Users\Anwar Hossain\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.6.0\selenium-safari-driver-3.6.0.jar;C:\Users\Anwar Hossain\.m2\repository\org\seleniumhq\selenium\selenium-support\3.6.0\selenium-support-3.6.0.jar;C:\Users\Anwar Hossain\.m2\repository\net\bytebuddy\byte-buddy\1.7.5\byte-buddy-1.7.5.jar;C:\Users\Anwar Hossain\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Anwar Hossain\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Anwar Hossain\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Anwar Hossain\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\Anwar Hossain\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar;C:\Users\Anwar Hossain\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Anwar Hossain\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\Anwar Hossain\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Anwar Hossain\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Anwar Hossain\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\Anwar Hossain\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\Anwar Hossain\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;C:\Users\Anwar Hossain\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;C:\Users\Anwar Hossain\.m2\repository\org\testng\testng\6.11\testng-6.11.jar;C:\Users\Anwar Hossain\.m2\repository\com\beust\jcommander\1.64\jcommander-1.64.jar;C:\Users\Anwar Hossain\.m2\repository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;C:\Users\Anwar Hossain\.m2\repository\io\cucumber\cucumber-java\2.1.0\cucumber-java-2.1.0.jar;C:\Users\Anwar Hossain\.m2\repository\io\cucumber\cucumber-junit\2.1.0\cucumber-junit-2.1.0.jar;C:\Users\Anwar Hossain\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Anwar Hossain\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Anwar Hossain\.m2\repository\io\cucumber\cucumber-core\2.1.0\cucumber-core-2.1.0.jar;C:\Users\Anwar Hossain\.m2\repository\info\cukes\cucumber-html\0.2.6\cucumber-html-0.2.6.jar;C:\Users\Anwar Hossain\.m2\repository\io\cucumber\cucumber-jvm-deps\1.0.6\cucumber-jvm-deps-1.0.6.jar;C:\Users\Anwar Hossain\.m2\repository\io\cucumber\gherkin\5.0.0\gherkin-5.0.0.jar;C:\Users\Anwar Hossain\.m2\repository\io\cucumber\tag-expressions\1.0.1\tag-expressions-1.0.1.jar;C:\Users\Anwar Hossain\.m2\repository\info\cukes\cucumber-picocontainer\1.2.5\cucumber-picocontainer-1.2.5.jar;C:\Users\Anwar Hossain\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\Anwar Hossain\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\Anwar Hossain\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\Anwar Hossain\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\Anwar Hossain\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\Anwar Hossain\.m2\repository\org\apache\logging\log4j\log4j-api\2.10.0\log4j-api-2.10.0.jar;C:\Users\Anwar Hossain\.m2\repository\org\apache\logging\log4j\log4j-core\2.10.0\log4j-core-2.10.0.jar;C:\Users\Anwar Hossain\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.20.1\surefire-testng-utils-2.20.1.jar;C:\Users\Anwar Hossain\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.20.1\surefire-grouper-2.20.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Anwar Hossain"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\ANWARH~1\AppData\Local\Temp\surefire8463136629713077049\surefirebooter3597950087279121624.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ANWARH~1\AppData\Local\Temp\surefire8325380775818648084\surefirebooter8313408634838020543.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_141\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_141\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_141\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,29 +60,29 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="negativeTest" classname="com.agile.testng.SmokeTest" time="11.277">
+  <testcase name="negativeTest" classname="com.agile.testng.SmokeTest" time="10.881">
     <failure message="expected [Validation errors occurred. Please confirm the fields and submit it again.] but found [Please fill in the required field.]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Validation errors occurred. Please confirm the fields and submit it again.] but found [Please fill in the required field.]
 	at com.agile.testng.SmokeTest.negativeTest(SmokeTest.java:21)
 </failure>
     <system-out><![CDATA[Open Firefox
 Test has started
-2018-02-25 14:51:45,987 main WARN Attempt to rename file testng.log to itself will be ignored
-[INFO ] 20180225-145146 [main] negativeEndToEnd- Opening firefox
-[INFO ] 20180225-145154 [main] negativeEndToEnd- Going to main page.
-[INFO ] 20180225-145155 [main] negativeEndToEnd- going to contact page
-[INFO ] 20180225-145156 [main] negativeEndToEnd- click on submit
-[INFO ] 20180225-145156 [main] negativeEndToEnd- Alert message
+2018-02-25 14:54:26,884 main WARN Attempt to rename file testng.log to itself will be ignored
+[INFO ] 20180225-145427 [main] negativeEndToEnd- Opening firefox
+[INFO ] 20180225-145435 [main] negativeEndToEnd- Going to main page.
+[INFO ] 20180225-145435 [main] negativeEndToEnd- going to contact page
+[INFO ] 20180225-145436 [main] negativeEndToEnd- click on submit
+[INFO ] 20180225-145437 [main] negativeEndToEnd- Alert message
 Validation errors occurred. Please confirm the fields and submit it again.
 Test unsuccessful
 ]]></system-out>
-    <system-err><![CDATA[1519588307611	geckodriver	INFO	geckodriver 0.18.0
-1519588307627	geckodriver	INFO	Listening on 127.0.0.1:7962
-1519588308120	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
-1519588313255	Marionette	INFO	Listening on port 63042
-1519588314022	Marionette	WARN	TLS certificate errors will be ignored for this session
-Feb 25, 2018 2:51:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+    <system-err><![CDATA[1519588468505	geckodriver	INFO	geckodriver 0.18.0
+1519588468520	geckodriver	INFO	Listening on 127.0.0.1:35007
+1519588469001	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1519588474204	Marionette	INFO	Listening on port 63137
+1519588474632	Marionette	WARN	TLS certificate errors will be ignored for this session
+Feb 25, 2018 2:54:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="positiveTest" classname="com.agile.testng.SmokeTest" time="10.874"/>
+  <testcase name="positiveTest" classname="com.agile.testng.SmokeTest" time="12.115"/>
 </testsuite>
